@@ -353,12 +353,11 @@ header {
   flex-wrap: wrap;
 }
 .team__item {
-  background-color: var(--background);
+  background-color: #FFFFFF;
   width: 270px;
   margin-right: 30px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .team__item:nth-child(4n) {
   margin-right: 0px;
@@ -383,6 +382,7 @@ header {
 .team__position {
   margin-top: 0;
   margin-bottom: 16px;
+  color: #757575;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
